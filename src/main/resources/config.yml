@@ -1,0 +1,49 @@
+server_name: 114B514T #前缀
+max: true #默认true，启用/禁用 /max指令
+fz: true #默认true，启用/禁用 /fz命令
+exp_copy: true #启用/禁用 经验瓶复制
+kill_donkey_copy: true #启用/禁用 杀驴复制
+uncommand: #允许玩家输入的命令
+  - "kg"
+  - "tps"
+  - "help"
+  - "kit"
+  - "zanzhu"
+  - "514"
+  - "4"
+  - "kg"
+  - "fz"
+  - "max"
+  - "stat"
+  - "w"
+  - "tell"
+  - "msg"
+  - "tpa"
+  - "tpacancel"
+  - "tpaccept"
+help: #/help
+  - "-----帮助列表-----"
+  - "/tpa <玩家> 可以tpa玩家"
+  - "/fz复制物品"
+  - "/max 获取手上物品最大堆叠"
+  - "杀一只驴带有箱子的驴，可以复制"
+  - "左手放要刷的物资，右手放经验瓶，右键即可刷物品"
+  - "/zanzhu获取赞助名单"
+  - "/ungmc 改生存模式"
+  - "/stat 玩家（可选）查询玩家信息"
+  - "/stats 获取服务器信息"
+  - "/514自杀(/4通用)"
+  - "/kit 获得kit"
+  - "QQ群672318944"
+  - "-------------------"
+zanzhu: #赞助名单
+  - "--------赞助名单---------"
+  - "Quella1819： 50元"
+  - "尼玛币： 8元"
+  - "CountXx： 5元"
+  - "bluesky_forever： 2.5元"
+  - "Black_ice： 1元"
+  - "----------------------------"
+ban_item: #只支持原版无附魔物品
+  - "BEDROCK"
+  - "END_PORTAL_FRAME"

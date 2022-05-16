@@ -1,0 +1,78 @@
+name: Fz
+version: '${project.version}'
+main: fz.fz.Fz
+softdepend: [PlaceholderAPI]
+commands:
+  fz:
+    description: copy item
+    permission: 114b514t.fz.use
+  stat:
+    description: stat player
+  kg:
+    description: kg
+  514:
+    description: kill player
+  4:
+    description: kill player
+  giveitem:
+    description: giveitem
+    permission: 114b514t.giveplayeritem.use
+  help:
+    description: help
+  tps:
+    description: tps
+  zanzhu:
+    description: zanzhu
+  w:
+    description: siliao
+  msg:
+    description: siliao
+  tell:
+    description: siliao
+  max:
+    description: max item
+    permission: 114b514t.max.use
+  tpa:
+    description: tpa
+  tpaccept:
+    description: tpaccept
+  tpacancel:
+    description: tpacancel
+  kit:
+    description: get kit
+  chatP:
+    description: help player to chat
+    permission: 114b514t.helpplayer.chat.use
+  getUUID:
+    description: getPlayerUUID
+    permission: 114b514t.*.*
+  say:
+    description: say
+    permission: 114b514t.say.use
+  stats:
+    description: stats
+  ungmc:
+    description: ungmc
+  tparefuse:
+    description: tparefuse
+permissions:
+  114b514t.uncommand.bypass:
+    description: uncommand.bypass
+  114b514t.unban_item.s:
+    description: opのanti banitem
+  114b514t.chat-green.use:
+    description: light.green's chatcolor
+  114b514t.chat-light-green-name.use:
+    description: chatcolor's name
+  114b514t.donkey_copy.use:
+    description: donkey copy
+    default: op
+  114b514t.infinitefoodlevel.use:
+    description: infinitefoodlevel
+    default: op
+  114b514t.admin.name:
+    description: admin's name
+  114b514t.vip.name:
+    description: vip's name
+  114b514t.nokeepinventory.use:
+    description: nokeepinventory
