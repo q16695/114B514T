@@ -1,0 +1,31 @@
+server_name: 114B514T #前缀
+max: true #默认true，启用/禁用 /max指令
+fz: true #默认true，启用/禁用 /fz命令
+exp_copy: true #启用/禁用 经验瓶复制
+kill_donkey_copy: true #启用/禁用 杀驴复制
+shulkerdupe: 5 #几+1，默认5
+ban_item: #只支持原版无附魔物品
+  - "BEDROCK"
+  - "END_PORTAL_FRAME"
+consolecommands:
+  - "op"
+  - "plugin"
+  - "ver"
+  - "version"
+allow-commands:
+  - "help"
+  - "4"
+  - "514"
+  - "kit"
+  - "fz"
+  - "max"
+  - "dupe"
+  - "kill"
+  - "head"
+  - "stat"
+  - "stats"
+  - "w"
+  - "tell"
+  - "msg"
+  - "s"
+  - "ungmc"

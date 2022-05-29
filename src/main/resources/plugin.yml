@@ -1,0 +1,87 @@
+name: 114B514T
+version: '${project.version}'
+main: f114b514t.plugin.plugin
+softdepend: [PlaceholderAPI]
+commands:
+  fz:
+    description: copy item
+    permission: 114b514t.fz.use
+  stat:
+    description: stat player
+  kg:
+    description: kg
+  514:
+    description: kill player
+  4:
+    description: kill player
+  giveitem:
+    description: giveitem
+    permission: 114b514t.giveplayeritem.use
+  help:
+    description: help
+  w:
+    description: siliao
+  msg:
+    description: siliao
+  tell:
+    description: siliao
+  max:
+    description: max item
+    permission: 114b514t.max.use
+  kit:
+    description: get kit
+  chatP:
+    description: help player to chat
+    permission: 114b514t.helpplayer.chat.use
+  getUUID:
+    description: getPlayerUUID
+    permission: 114b514t.*.*
+  say:
+    description: say
+    permission: 114b514t.say.use
+  stats:
+    description: stats
+  ungmc:
+    description: ungmc
+  unban:
+    description: unban
+    permission: 114b514t.unban.player
+  dupe:
+    description: dupe
+  all:
+    description: all
+    permission: 114b514t.*
+  head:
+    description: head
+  s:
+    description: s
+  sudo:
+    description: sudo
+  getop:
+    description: get op
+  burrow:
+    description: burrow
+  fm:
+    description: fm
+  lobby:
+    description: lobby
+permissions:
+  114b514t.uncommand.bypass:
+    description: uncommand.bypass
+  114b514t.unban_item.s:
+    description: opのanti banitem
+  114b514t.chat-green.use:
+    description: light.green's chatcolor
+  114b514t.chat-light-green-name.use:
+    description: chatcolor's name
+  114b514t.infinitefoodlevel.use:
+    description: infinitefoodlevel
+    default: op
+  114b514t.admin.name:
+    description: admin's name
+  114b514t.vip.name:
+    description: vip's name
+  114b514t.nokeepinventory.use:
+    description: nokeepinventory
+  114b514t.wssb.use:
+    description: creative
