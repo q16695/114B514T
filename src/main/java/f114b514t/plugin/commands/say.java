@@ -1,6 +1,5 @@
 package f114b514t.plugin.commands;
 
-import f114b514t.plugin.plugin;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -24,8 +23,8 @@ public class say implements CommandExecutor {
             for(Player player : Bukkit.getOnlinePlayers()){
                 player.sendMessage(ChatColor.RED+"[Server]" + ChatColor.YELLOW + arg);
             }
+            sender.sendMessage(ChatColor.RED+"["+sender.getName()+"]"+ChatColor.YELLOW+arg);
         }
-        plugin.getPlugin(plugin.class).getLogger().info(ChatColor.RED+"["+sender.getName()+"]"+ChatColor.YELLOW+arg);
         return false;
     }
 }
